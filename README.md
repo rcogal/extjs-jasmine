@@ -43,6 +43,3 @@ launch: function () {
 ** remove the app.js on the js config, and
 ** add the *appTest.js*
 8. add your own specs for your unit testing. Please check the *MyApp/specs* folder on this repository
-
-### Conclusion
-On this guide, I'm not sure if this is the best as it only update few files but if you have any idea please share it to us to be able to improve the unit test using Jasmine.
