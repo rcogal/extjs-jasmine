@@ -1,10 +1,9 @@
 # Integrating Unit-test in ExtJS using Jasmine
 
-Created a simple application for guide on how to integrate Jasmine in ExtJS Application for unit testing. I'm currently using ExtJS 6 for this guide but I think it can still be applied on any version of ExtJS. I didn't touch its core files, I just created a new file that extends the *Application.js*, and create a file that contains our test suites.
+Jasmine integration on ExtJS Framework for unit testing. 
 
 ### What’s needed:
-  - Java Runtime Environment (JRE)
-  - ExtJS
+  - ExtJS 6 (okay to use old version)
   - Sencha CMD and its dependencies
   - Jasmine 2.6.4
 
