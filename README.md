@@ -92,7 +92,17 @@ Basic integration of Jasmine in ExtJS framework. Allows developer to simply test
     //** ADD THIS PROPERTY INSIDE OF THE - MyApp.Application
     requires: ['TestSuite.view.main.Main'],
     ```
-10. Lastly, open your command prompt and run the code below
+    
+10. Include the jasmine css and js file in the index.html
+    ```sh
+    <link rel="stylesheet" href="../jasmine-standalone-3.4.0/lib/jasmine-3.4.0/jasmine.css">
+
+    <script src="../jasmine-standalone-3.4.0/lib/jasmine-3.4.0/jasmine.js"></script>
+    <script src="../jasmine-standalone-3.4.0/lib/jasmine-3.4.0/jasmine-html.js"></script>
+    <script src="../jasmine-standalone-3.4.0/lib/jasmine-3.4.0/boot.js"></script>
+
+    ```
+11. Lastly, open your command prompt and run the code below
     ```
     > sencha app watch development
     ```
