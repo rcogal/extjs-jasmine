@@ -107,3 +107,5 @@ Basic integration of Jasmine in ExtJS framework. Allows developer to simply test
     ```
     > sencha app watch development
     ```
+    
+    > NOTE: by default, it will run using this port http://localhost:1841/MyApp/
